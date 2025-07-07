@@ -1,4 +1,4 @@
-import image from "./download.jpeg";
+
 
 function CreateSection() {
   return (
@@ -40,16 +40,7 @@ function CreateSection() {
             Start Creating
           </button>
         </div>
-        <img
-          src={image}
-          alt="Budget Planning"
-          style={{
-            borderRadius: '18px',
-            width: '240px',
-            marginLeft: '40px',
-            boxShadow: '0 4px 24px rgba(0,0,0,0.18)',
-          }}
-        />
+        
       </div>
     </section>
   );
